@@ -1,0 +1,16 @@
+{
+  "name": "seventh-evening",
+  "version": "1.0.0",
+  "description": "some code for xiaosong",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . App --win --out application --arch=x64 --electron-version 6.0.0 --overwrite --ignore=node_modules"
+  },
+  "author": "guoshi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.0",
+    "electron-packager": "^14.0.4"
+  }
+}
